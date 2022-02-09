@@ -1,0 +1,27 @@
+
+* {
+margin: 0;
+padding: 0;
+}
+@keyframes slide {
+    from {left: 0px;}
+    to {left: 50px;background-color: rgb(44,44,49);}
+  }
+@keyframes slide1 {
+    from {top: 0px;}
+    to {top: 20px; background-color: rgb(44,44,49);}
+}
+@keyframes slide23{
+  from {right: 0px;}
+    to {right: 20px; background-color: rgb(44,44,49);}
+}
+@keyframes back-to-top{
+  0%{opacity: 0.2;}
+  25%{opacity: 0.4;}
+  50%{opacity: 0.6;}
+  75%{opacity: 0.8;}
+  100%{opacity: 1;}
+}
+@keyframes slide-back-to-top{
+  100% { background-position: -100px; }
+}
